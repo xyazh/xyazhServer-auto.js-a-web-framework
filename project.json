@@ -1,0 +1,68 @@
+{
+    "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+    ],
+    "assets": [],
+    "build": {
+        "build_number": 3,
+        "build_time": 1687960524762,
+        "release": false
+    },
+    "encryptLevel": 0,
+    "useFeatures": [],
+    "launchConfig": {
+        "displaySplash": true,
+        "hideLogs": false,
+        "splashText": "Powered by Autoxjs.com",
+        "stableMode": false,
+        "splashIcon": null,
+        "splashLayoutXml": null
+    },
+    "main": "main.js",
+    "name": "XyazhServer",
+    "optimization": {
+        "removeOpenCv": false,
+        "unusedResources": false,
+        "removeAccessibilityService": false,
+        "obfuscateComponents": false
+    },
+    "packageName": "com.script.xyazhserver",
+    "scripts": {},
+    "versionCode": 1,
+    "versionName": "0.9.0",
+    "icon": null,
+    "publish": {
+        "category": "模块",
+        "details": "使用js调用java的socket包实现了一个http服务器/web框架，可以使用aj部署本地的网站",
+        "maxAutoJsVersion": 0,
+        "maxProVersion": 0,
+        "minAutoJsVersion": 0,
+        "minProVersion": 0,
+        "minSdkVersion": 0,
+        "permissions": [],
+        "summary": "一个http服务器/web框架",
+        "tags": null
+    },
+    "signingConfig": {
+        "keystore": "",
+        "alias": "",
+        "uuid": ""
+    },
+    "androidResources": null,
+    "permissionConfig": {
+        "manifestPermissions": null,
+        "requestListOnStartup": [
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+        ]
+    },
+    "features": {
+        "builtInOCR": null,
+        "activityIntentTasks": false,
+        "nodejs": "auto"
+    },
+    "plugins": null,
+    "type": null
+}
